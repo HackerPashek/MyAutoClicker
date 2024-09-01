@@ -20,6 +20,8 @@ def Quit():
 	print("Quit")
 	sys.exit()
 
+# Press "x" to turn on/off clicker
+# Press "q" to disactivate it
 keyboard.add_hotkey("x", Click)
 keyboard.add_hotkey("q", Quit)
 
